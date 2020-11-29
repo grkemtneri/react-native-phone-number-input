@@ -7,6 +7,7 @@ import {
 } from "react-native-country-picker-modal";
 import { CountryFilterProps } from "react-native-country-picker-modal/lib/CountryFilter";
 export interface PhoneInputProps {
+  disableCountryPicker?:boolean;
   withDarkTheme?: boolean;
   withShadow?: boolean;
   autoFocus?: boolean;
